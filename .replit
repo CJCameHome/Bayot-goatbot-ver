@@ -1,6 +1,16 @@
-language = "nodejs"
-run = "npm start"
-modules = ["nodejs-16", "web", "nix"]
+# Set the language
+language = "javascript"
 
-[nix]
-channel = "stable-24_05"
+# Install dependencies when Repl boots
+onBoot = "npm install"
+
+# Define the command to start the bot
+run = "node index.js"
+
+# (Optional) Configure database if needed
+# Example for sqlite:
+# REPLIT_DB_URL = "file:./data.db" 
+
+# (Optional) Configure database if needed
+# Example for mongodb:
+# REPLIT_DB_URL = "mongodb://localhost:27017/your-database-name"
