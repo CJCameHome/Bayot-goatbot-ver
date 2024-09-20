@@ -1,2 +1,2 @@
-**TiteBot ⭐** (goatbot ver) 
+# TiteBot ⭐ (goatbot ver) 
 Made by CJ Valdez
